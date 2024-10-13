@@ -11,4 +11,4 @@ ITI — это легковесный фреймворк для создания
 ## Установка
 1. Скачайте тему или клонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/iti-framework.git
+   git clone https://github.com/slogoz/iti-framework.git
