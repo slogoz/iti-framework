@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 
 <main>
-    <h1><?php bloginfo('name'); ?></h1>
-    <h2><?php bloginfo('description'); ?></h2>
+    <h1><?php the_archive_title(); ?></h1>
 
     <?php if (have_posts()) : ?>
-        <div class="post-list">
+        <div class="archive-posts">
             <?php
             while (have_posts()) :
                 the_post(); ?>
